@@ -1,0 +1,30 @@
+.actions-output {
+  margin: 2rem 0 1rem;
+}
+
+.truth-table__body button#check-all {
+  border: none;
+  border-radius: 25px;
+  background-color: #ffb30f;
+  cursor: pointer;
+  padding: 0.4em 1.5em;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.truth-table__body button#check-all.disabled {
+  opacity: 0.4;
+}
+
+.check-all-answers {
+  padding: 1rem;
+  letter-spacing: 3px;
+  color: #333;
+}
+
+.check-all-answers.success {
+  background-color: #cfffe5;
+}
+.check-all-answers.failure {
+  background-color: #ee5a60;
+}

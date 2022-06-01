@@ -1,0 +1,42 @@
+.truth-table__row {
+  border: 1px solid #333;
+  border-top: none;
+  display: grid;
+  grid-template-columns: 20% 20% 1fr;
+}
+
+.truth-table__row > * {
+  padding: 5px;
+  text-align: center;
+  border-right: 1px solid #333;
+}
+
+.truth-table__row > *:last-of-type {
+  border-right: none;
+}
+
+.truth-table__row .input-div {
+  position: relative;
+  border: none;
+  display: grid;
+  place-content: center;
+}
+
+.truth-table__row .input-div input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  border: none;
+  padding: 1rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.truth-table__row .input-div input:focus {
+  outline: 5px solid #4bb3fd;
+  border-radius: 5px;
+  z-index: 1;
+}
