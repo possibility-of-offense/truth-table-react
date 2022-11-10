@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/truth-table-react/static/css/main.d7eb315e.css",
+    "main.js": "/truth-table-react/static/js/main.e591d03a.js",
+    "static/js/787.bd5e9501.chunk.js": "/truth-table-react/static/js/787.bd5e9501.chunk.js",
+    "index.html": "/truth-table-react/index.html",
+    "main.d7eb315e.css.map": "/truth-table-react/static/css/main.d7eb315e.css.map",
+    "main.e591d03a.js.map": "/truth-table-react/static/js/main.e591d03a.js.map",
+    "787.bd5e9501.chunk.js.map": "/truth-table-react/static/js/787.bd5e9501.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7eb315e.css",
+    "static/js/main.e591d03a.js"
+  ]
+}
